@@ -4,7 +4,7 @@ let numero = 8;
 
  for (let i = 1; i <= numero; i++) {
     if (i % 2 === 0) {
-    // console.log(`${i} es par`);
+     console.log(`${i} es par`);
     }
 }
   
@@ -15,11 +15,11 @@ let numero2 = 4
 
 for (let i = 1; i <= 10; i++) {
  if (i > numero2){
-  //  console.log(`${i} es mayor que ${numero2}`)
+    console.log(`${i} es mayor que ${numero2}`)
 } else if (i < numero2){
-    //console.log(`${i} es menor que ${numero2}`)
+    console.log(`${i} es menor que ${numero2}`)
 }else {
-    //console.log(`${i} es igual que ${numero2}`)
+    console.log(`${i} es igual que ${numero2}`)
 }
 
 }
@@ -29,7 +29,7 @@ for (let i = 1; i <= 10; i++) {
 let number = 30;
 
 if (number % 5 === 0){
-   // console.log(`${number} es multiplo de 5`)
+    console.log(`${number} es multiplo de 5`)
 }
 
 //Ejercicio 4:  
@@ -37,7 +37,7 @@ let numero3 = 20
 
 for (let i = 0; i <= numero3; i++) {
   
-  //  console.log(i)
+    console.log(i)
     
 }
 
@@ -46,7 +46,7 @@ number = 7;
 palabra = 'palabra'
 
 for (let i = 1; i <= number; i++){
- //   console.log(palabra)
+    console.log(palabra)
 }
 
 
@@ -56,7 +56,7 @@ let array = ['lunes', 'martes' , 'miercoles' , 'jueves' ]
 
 
 for (let letra of array) {
-  //.log(letra)
+  console.log(letra)
   
 }
 
@@ -69,7 +69,7 @@ for (  let number10 of numbers10 ){
     continue;
   }
 
-  //console.log (number10)
+  console.log (number10)
 }
 
 //ejercicio 8;8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
